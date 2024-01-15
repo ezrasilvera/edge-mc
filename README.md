@@ -17,11 +17,6 @@
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)&nbsp;&nbsp;&nbsp;
 [![Broken Links Crawler](https://github.com/kubestellar/kubestellar/actions/workflows/broken-links-crawler.yml/badge.svg)](https://github.com/kubestellar/kubestellar/actions/workflows/broken-links-crawler.yml)
 [![QuickStart test](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-qs.yml/badge.svg?branch=main)](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-qs.yml)&nbsp;&nbsp;&nbsp;
-[![docs-ecutable - example1](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-example1.yml/badge.svg?branch=main)](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-example1.yml)&nbsp;&nbsp;&nbsp;
-[![docs-ecutable - placement-translator](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-placement.yml/badge.svg?branch=main)](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-placement.yml)&nbsp;&nbsp;&nbsp;
-[![docs-ecutable - mailbox-controller](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-mailbox.yml/badge.svg?branch=main)](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-mailbox.yml)&nbsp;&nbsp;&nbsp;
-[![docs-ecutable - where-resolver](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-where-resolver.yml/badge.svg?branch=main)](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-where-resolver.yml)&nbsp;&nbsp;&nbsp;
-[![docs-ecutable - kubestellar-syncer](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-syncer.yml/badge.svg?branch=main)](https://github.com/kubestellar/kubestellar/actions/workflows/docs-ecutable-syncer.yml)&nbsp;&nbsp;&nbsp;
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8266/badge)](https://www.bestpractices.dev/projects/8266)&nbsp;&nbsp;&nbsp;
 <a href="https://kubernetes.slack.com/archives/C058SUSL5AA">
     <img alt="Join Slack" src="https://img.shields.io/badge/KubeStellar-Join%20Slack-blue?logo=slack">
@@ -46,16 +41,16 @@ __Don't change anything, just add KubeStellar!__
 - __Remain compatible__ with cloud-native solutions
 
 ## KubeStellar virtual clusters (Spaces) are our secret
-TODO: Need update!
-- KubeStellar uses lightweight virtual clusters (Spaces) that run inside the KubeStellar hosting cluster
+`TODO: Need update!  validate the info here`
+- KubeStellar uses lightweight virtual clusters (Spaces or control planes) that run inside the KubeStellar hosting cluster
 - Standard Kubernetes clusters have __2-300__ api-resources, KubeStellar Spaces have only __40__
 - Fewer api-resources mean resources remain inactive (denatured) – they do not expand into other resources like replicasets, pods, etc.
 - Denaturing is the key to accepting native, unbundled Kubernetes resources as input without running them
 - Unbundled resources are the default and preferred output of most cloud-native tools making KubeStellar use and integration easy
 
 ## QuickStart
-TBD
-The ks-0.20 documents are here: [https://github.com/kubestellar/kubestellar/tree/ks-0.20/docs/content/v0.20](https://github.com/kubestellar/kubestellar/tree/ks-0.20/docs/content/v0.20)
+`TBD - QS for KS-0.20`  
+Manual steps to deploy and use ks-0.20 can be found here: [https://github.com/kubestellar/kubestellar/tree/ks-0.20/docs/content/v0.20](https://github.com/kubestellar/kubestellar/tree/ks-0.20/docs/content/v0.20)
 
 ## Roadmap for the Project
 TBD

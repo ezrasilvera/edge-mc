@@ -53,12 +53,7 @@ Checkout our [QuickStart Guide]({{ config.docs_url }}/{{ config.ks_branch }}/Get
 
 
 ## Roadmaps for the Project
-
-We have defined and largely completed the
-[PoC2023q1](../Coding%20Milestones/PoC2023q1/outline/).
-The current activity is refining the definition of, and producing, the
-[PoC2023q4](../Coding%20Milestones/PoC2023q4/outline/).
-Goals not addressed in that PoC are to be explored later.
+`TBD - KS 0.20 goals`
 
 ## Contributing
 

@@ -17,11 +17,8 @@
 Table of contents:
 
 1. [Check Required Packages](#1-check-required-packages)
-2. [Install and run kcp and KubeStellar](#2-install-and-run-kcp-and-kubestellar)
-3. [Example deployment of Apache HTTP Server workload into two local kind clusters](#3-example-deployment-of-apache-http-server-workload-into-two-local-kind-clusters)
-      1. [Stand up two kind clusters: florin and guilder](#a-stand-up-two-kind-clusters-florin-and-guilder)
-      2. [Onboarding the clusters](#b-onboarding-the-clusters)
-      3. [Create and deploy the Apache Server workload into florin and guilder clusters](#c-create-and-deploy-the-apache-server-workload-into-florin-and-guilder-clusters)
+2. [Install and run KubeStellar](#2-install-and-run-kubestellar)
+3. [Example deployment of Apache HTTP Server workload into a local WEC kind cluster](#3-example-deployment-of-apache-http-server-workload-into-a-local-kind-cluster)
 4. [Teardown the environment](#4-teardown-the-environment)
 5. [Next Steps](#5-next-steps)
 
@@ -36,53 +33,10 @@ This guide is intended to show how to (1) quickly bring up a KubeStellar environ
    end="<!--required-packages-end-->"
 %}
 
-## 2. Install and run kcp and <span class="Space-Bd-BT">KUBESTELLAR</span>
+## 2. Install and run <span class="Space-Bd-BT">KUBESTELLAR</span>
 
-{%
-   include-markdown "quickstart-subs/quickstart-1-install-and-run-kubestellar.md"
-   start="<!--quickstart-1-install-and-run-kubestellar-start-->"
-   end="<!--quickstart-1-install-and-run-kubestellar-end-->"
-%}
 
-## 3. Example deployment of Apache HTTP Server workload into two local kind clusters
-
-In this example you will create two edge clusters and define one
-workload that will be distributed from the center to those edge
-clusters.  This example is similar to the one described more
-expansively [on the
-website](../../Coding%20Milestones/PoC2023q1/example1/),
-but with the some steps reorganized and combined and the special
-workload and summarization aspirations removed.
-
-### a. Stand up two kind clusters: florin and guilder
-
-{%
-   include-markdown "quickstart-subs/quickstart-2-apache-example-deployment-a-kind-clusters-florin.md"
-   start="<!--quickstart-2-apache-example-deployment-a-kind-clusters-florin-start-->"
-   end="<!--quickstart-2-apache-example-deployment-a-kind-clusters-florin-end-->"
-%}
-
-{%
-   include-markdown "quickstart-subs/quickstart-2-apache-example-deployment-a-kind-clusters-guilder.md"
-   start="<!--quickstart-2-apache-example-deployment-a-kind-clusters-guilder-start-->"
-   end="<!--quickstart-2-apache-example-deployment-a-kind-clusters-guilder-end-->"
-%}
-
-### b. Onboarding the clusters
-
-{%
-   include-markdown "quickstart-subs/quickstart-2-apache-example-deployment-c-onboarding-clusters.md"
-   start="<!--quickstart-2-apache-example-deployment-c-onboarding-clusters-start-->"
-   end="<!--quickstart-2-apache-example-deployment-c-onboarding-clusters-end-->"
-%}
-
-### c. Create and deploy the Apache Server workload into florin and guilder clusters
-
-{%
-   include-markdown "quickstart-subs/quickstart-2-apache-example-deployment-d-create-and-deploy-apache-into-clusters.md"
-   start="<!--quickstart-2-apache-example-deployment-d-create-and-deploy-apache-into-clusters-start-->"
-   end="<!--quickstart-2-apache-example-deployment-d-create-and-deploy-apache-into-clusters-end-->"
-%}
+## 3. Example deployment of Apache HTTP Server workload into a local kind cluster
 
 ## 4. Teardown the environment
 
@@ -93,11 +47,3 @@ workload and summarization aspirations removed.
 %}
 
 ## 5. Next Steps
-
-What you just did is a shortened version of the 
-[more detailed example](../../Coding%20Milestones/PoC2023q1/example1/) on the website,
-but with the some steps reorganized and combined and the special
-workload and summarization aspiration removed.  You can continue
-from here, learning more details about what you did in the QuickStart,
-and adding on some more steps for the special workload.
-
