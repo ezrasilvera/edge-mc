@@ -335,6 +335,7 @@ make MANIFEST="'docs/content/Getting-Started/quickstart.md'" docs-ecutable
     - This script is given the name of the HTML file to read and the current working directory to establish at the start of the extracted bash.
     - It then creates a file called 'generated_script.sh' which is then run.
 
+Example: Ezra
 All of this is invoked in a target in our <a href="{{ config.repo_url }}/blob/{{config.ks_branch}}/Makefile">Makefile</a>
 ``` {.bash .no-copy}
 .PHONY: execute-html
